@@ -1,0 +1,6 @@
+@Mission10_GillespieAPI_HostAddress = http://localhost:5197
+
+GET {{Mission10_GillespieAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,32 @@
+{
+    /*
+    Specifies the configurations that the ESLint setup will extend
+    react-app: extends the default ESLint configuration provided by the 'create-react-app' which includes rules to React apps
+    plugin:prettier/recommended: extends the recommended configuration for the prettier plugin. ESLint will now enforce Prettier's formatting rules
+    */
+    "extends":["react-app", "plugin:prettier/recommended"],
+    /*
+    The rules section allows you to override or define additional rules specific to your project
+    prettier/prettier: rule to enforce Prettier's formatting rules
+    error: specifies that ANY violation of the Prettier formatting will be reported as an error
+    'endOfLine:auto': Prettier option that automatically determines the line endings based on your environment
+    */ 
+    "rules": {
+        "prettier/prettier": [
+            "error", {
+                "endOfLine":"auto"
+            }
+        ]
+    }
+}
+
+/*
+Comments on .prettierrc.json file:
+printWidth: this specifies the max line length before Prettier tries to wrap the code to fit within the specified width (80 chars in our case)
+singleQuote: this option determines whether Prettier should use single (true) or double quotes (false) for string literals.
+semi: this option specifies whether prettier should print semicolons at the end of statements (true) or omit them (false).
+trailingComma: this option defines how Prettier handles trailing commas in object literals, array literals, and function parameters
+    all - ensures trailing commas wherever valid in all scenarios
+    none - omits trailing commas wherever possible
+    es5 - enforces trailing commas only for ES5-compliant trailing commas in function parameter lists and array/object literals
+*/
