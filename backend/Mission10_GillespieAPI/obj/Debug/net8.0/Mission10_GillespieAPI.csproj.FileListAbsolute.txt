@@ -125,3 +125,4 @@ C:\Users\jakeg\Downloads\Other\BYU\IS_413\Mission10_Gillespie\backend\Mission10_
 C:\Users\jakeg\Downloads\Other\BYU\IS_413\Mission10_Gillespie\backend\Mission10_GillespieAPI\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\jakeg\Downloads\Other\BYU\IS_413\Mission10_Gillespie\backend\Mission10_GillespieAPI\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\jakeg\Downloads\Other\BYU\IS_413\Mission10_Gillespie\backend\Mission10_GillespieAPI\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\jakeg\Downloads\Other\BYU\IS_413\Mission10_Gillespie\backend\Mission10_GillespieAPI\obj\Debug\net8.0\Mission10_GillespieAPI.sourcelink.json
